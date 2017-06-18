@@ -38,3 +38,16 @@
 ### 更新日志
 #### 1.0
 终于完成了啦
+
+
+######Lines above are written by mokeyjay######
+######Lines below are written by chino######
+
+
+Optimization points(WIP):
+1.Log to file feature
+2.Automatically limit the number of objects on crawl list to 60000(1500 pages)
+3.Stability improvement(by using service feature on linux)
+4.Intergration with my future app
+
+All commits are welcomed!
