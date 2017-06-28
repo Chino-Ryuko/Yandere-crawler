@@ -14,14 +14,14 @@ import logging
 page = 1
 # 终止页码。为0时根据last_start_id来判断是否停止爬取；非0时爬完此页即停止
 # 此参数必须 >= page
-max_page = 1
+max_page = 9999
 # 要下载的图片类型。0=全部 1=横图 2=竖图 3=正方形
-pic_type = 1
+pic_type = 0
 # 图片尺寸限制，0为不限制。proportion为图片宽高比
-# 对本机进行适配
-pic_size = {
-    'min': {'width': 1920, 'height': 1080, 'proportion': 1.77},
-    'max': {'width': 0, 'height': 0, 'proportion': 1.78},
+# Fix Github Merge Error
+pic_size = { 
+    'min': {'width': 0, 'height': 0, 'proportion': 0},
+    'max': {'width': 0, 'height': 0, 'proportion': 0},
 }
 
 # 创建目录存放今天爬下来的图
