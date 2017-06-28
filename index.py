@@ -14,7 +14,7 @@ import logging
 page = 1
 # 终止页码。为0时根据last_start_id来判断是否停止爬取；非0时爬完此页即停止
 # 此参数必须 >= page
-max_page = 9999
+max_page = 0
 # 要下载的图片类型。0=全部 1=横图 2=竖图 3=正方形
 pic_type = 0
 # 图片尺寸限制，0为不限制。proportion为图片宽高比
