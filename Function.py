@@ -1,8 +1,8 @@
-import os.path
+﻿import os.path
 import datetime
 
 # 图片存储位置
-_folder_name = '/root/Yandere/'
+_folder_name = 'D:\\yandere\\'
 # 可以直接使用linux绝对路径 不可使用'~'代替用户文件夹目录，否则会导致kernel crash
 
 def create_folder():

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 
 import Yandere
 import urllib.request
@@ -16,12 +16,12 @@ page = 1
 # 此参数必须 >= page
 max_page = 0
 # 要下载的图片类型。0=全部 1=横图 2=竖图 3=正方形
-pic_type = 0
+pic_type = 1
 # 图片尺寸限制，0为不限制。proportion为图片宽高比
 # Fix Github Merge Error
 pic_size = { 
-    'min': {'width': 0, 'height': 0, 'proportion': 0},
-    'max': {'width': 0, 'height': 0, 'proportion': 0},
+    'min': {'width': 1920, 'height': 1080, 'proportion': 1.77},
+    'max': {'width': 0, 'height': 0, 'proportion': 1.78},
 }
 
 # 创建目录存放今天爬下来的图
